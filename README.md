@@ -1,13 +1,13 @@
 ## Project Title : Fake News Detection using Machine Learning & Deep Learning techniques.
 
 **Technologies Used**: 
-**Libraries**: NLTK, Scikit-learn, tensorflow, Flask, Pandas, NumPy, Matplotlib, Seaborn.---
+**Libraries**: Pandas, NumPy, Matplotlib, Seaborn, NLTK, Scikit-learn, tensorflow, Pickle.---
 **Languages**: Python.---
 **Deployment**: Pickle.
 
-The main aim of this project is to identify the news articles whether it is fake or true news based on text. By leveraging Natural Language Processing (NLP) and both machine learning and deep learning techniques to predict the fake news. Therefore, misinformation can be reduced.
+**Overview**:The main aim of this project is to identify the news articles whether it is fake or true news based on text. By leveraging Natural Language Processing (NLP) and both machine learning and deep learning techniques to predict the fake news. Therefore, misinformation can be reduced.
 
-The project follows several steps:
+**The project follows several steps:**
 
 **Data Preprocessing:** handled missing data, Text cleaning, Text normalization, Removed stop words, Tokenization, Stemming, Lemmatization and feature engineering to prepare the data.
 

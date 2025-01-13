@@ -7,7 +7,7 @@ I bring **7+ years of experience** in leveraging **machine learning** and **deep
 This repository contains various projects I have worked on across different domains.
 
 ## My Contact details
-- 📧 **Email:** praveenyeduresi@example.com
+- 📧 **Email:** praveenyeduresi@gmail.com
 - 💼 **LinkedIn:** https://www.linkedin.com/in/praveenyeduresi/
 
 

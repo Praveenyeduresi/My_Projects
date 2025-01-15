@@ -1,28 +1,76 @@
-Project Title : House Sale Prices Prediction.
-Technologies Used: Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, tensorflow, statsmodels, --- Languages: Python.--- Deployment: Pickle.
+**Project Title : House Sale Prices Prediction.**
 
-Overview:The main aim of this project is to identify the news articles whether it is fake or true news based on text. By leveraging Natural Language Processing (NLP) and both machine learning and deep learning techniques to predict the fake news. Therefore, misinformation can be reduced.
+**Technologies Used:** Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, tensorflow, statsmodels, --- Languages: Python.
 
-The project follows several steps:
+**Project Overview:** The main aim of this project is to predict the house sale prices in Washington State, USA, using various machine learning & deep learning models. Additionally, time series analysis is applied to understand market trends and forecast future property prices. The objective is to build a reliable model that can accurately forecast house prices and identify the main elements that affecting high value properties. By analyzing historic data, we can develop a robust prediction model and gain insights into the main factors that contribute to higher house prices.
 
-Data Preprocessing: handled missing data, Text cleaning, Text normalization, Removed stop words, Tokenization, Stemming, Lemmatization and feature engineering to prepare the data.
+**Table of contents**
+1. Dataset Loading
+2. Data Exploration
+3. Data Preprocessing
+4. Exploratory Data Analysis (EDA)
+5. Modelling
+6. Time Series Analysis
+7. Evaluation Metrics
+8. Conclusion
 
-Exploratory Data Analysis: performed univariant and bivariant analysis.
+**The project follows a structured pipeline as outlined below:**
 
-Observations in univariant analysis - Data contains 54% of churn customers and 46% of retained customers which implies target variable distribution is balanced. Text length and word count have a right-skewed distribution, with most articles averaging around 1500 characters and around 250 words respectively. The subject distribution shows a high concentration in the "politics" category.
+  **1. Data Loading:** Load the dataset and inspect its structure.
 
-Observations in Bivariant analysis - True news articles tend to have slightly longer text lengths and higher word counts, moreover, Articles under "politicsNews" are more likely to be true news. while fake news is more common in certain subject categories like "News." Both text length and word count show weak correlations with the Target variable.
+  **2. Data Exploration:** Understand the dataset by checking distributions, missing values, duplicates, datatypes and key statistics.
 
-Text Vectorization:TF-IDF (Term Frequency-Inverse Document Frequency)
+Data challenges 
 
-Machine Learning Models: Trained and evaluated multiple models like Logistic Regression, Support Vector Machines (SVM) and Naive Bayes.
+- The data type should be changed to 'Int' for bathrooms & floors variables, and to 'date' for the date variable.
 
-Deep Learning Approach: Integrated a Long Short-Term Memory (LSTM) network, a type of recurrent neural network (RNN), to capture sequential patterns and context in textual data.
+- Duplicate rows in the 'id' column should be removed, keeping the latest 'id' by sorting the date as it contains the updated house price.
+   
+**3. Data Preprocessing:** - Data types converted, Removed duplicates rows
 
-Model Evaluation: Evaluated models using metrics like accuracy, precision, recall, F1-score and confusion matrix.
+**4. Exploratory Data Analysis (EDA):** performed univariant and bivariant analysis.
 
-Deployment: Saved the trained Logistic Regression model using pickle for deployment.
+- **Observations in univariant analysis** 
 
-Manual Testing: Whether News is Fake or Not a Fake
+Most houses have 2 to 4 bedrooms, with very few having more than 6. Bathrooms are generally in between 1 & 2, larger numbers are more rare. The majority of houses having 1 or 2 floors, and those with 3 or more floors are less frequent. Regarding waterfront, the distribution shows that most houses do not have a waterfront. Similarly, most houses have no significant view, with higher view indices (1 to 4) being rare. In terms of condition, the houses are generally in good shape, with condition scale ranging between 3 and 5, while very few are in poor condition (indices 1 or 2). Finally, the grade distribution indicates that the majority of houses fall within the middle range (6 to 8), reflecting average to good construction and design quality. Houses with very low (1-3) or very high (10+) grades are uncommon.
 
-Conclusion: This project focused on identifying true and fake news using natural language processing techniques. First, the text data was cleaned and prepared for analysis using extreme preprocessing techniques such as tokenization, stop word removal, and lemmatization. Next, Exploratory data analysis showed patterns like the frequency of political news and variations in text characteristics between true and fake news articles. During modelling stage, performed evaluation metrics such as accuracy, precision, recall, and F1-score. Based on the results, Support Vector Classifier (SVC) and Logistic Regression achieved the highest accuracies, with 99% and 98% respectively. These findings demonstrate that machine learning and deep learning models can effectively leverage such insights to enhance fake news detection systems.
+- **Observations-The distribution plots**
+
+The distribution of the price variable seems right skewed with most houses having less prices and very few having high-priced houses.The living space area (sqft_living) and above-ground living space (sqft_above) both seems right skewed, with most houses having small areas. Lot size (sqft_lot) is extremely skewed, with a large number of houses having small lots and very few with extremely large lots. The yr_built variable seems multimodal distribution and most houses were built between 1940 and 2010. Latitude (lat) and longitude (long) show clustered distributions, indicating that there are more houses in particular geographic areas.
+
+- **Observations in Bivariant analysis**
+
+Price shows a positive correlation with square footage (both living space and above-ground area), grade, bathrooms, and view, where higher values in these variables correspond to higher prices. Prices for waterfront properties are significantly greater when compared to non-waterfront properties. House condition and the number of floors show only a minor impact on the price, with higher floors or better conditions associated with slight increases. Older houses (based on year built) generally do not show a consistent trend in price, but recently built homes are increasing significantly.
+
+**5. Modeling:** 
+
+**Applied various machine learning models:**
+Linear Regression, DecisionTreeRegressor, RandomForestRegressor, XGBRegressor, Support Vector Regression (SVR), K-Nearest Neighbors (KNN) & Neural Networks.
+
+**6. Time Series Analysis**
+
+In addition to predicting house prices using machine learning & deep learning models, time series analysis was applied to forecast future trends. The following steps were followed:
+
+- **Understanding Trends and Seasonality** : Visualized the overall trend and seasonal variations in house prices.
+  
+  **Observations**:The plot shows the Monthly Average House Prices over a period of time, from July 2014 to May 2015. The trend shows a Downward Trend from July 2014 to March 2015, indicating that house prices were decreasing during this period. After March 2015, the pattern changes to an Upward Trend that shows house prices were increasing.
+
+
+- **Stationarity Check**
+  
+Performed the Augmented Dickey-Fuller (ADF) test to check whether the data is stationary or not. Here, data is not stationary. So it is necessary to eliminate trends by using differencing techniques to make the data stationary.
+
+- **Building Time Series Models**
+  
+ARIMA: Auto-Regressive Integrated Moving Average model.
+
+SARIMA: Seasonal ARIMA model to handle seasonality in the data.
+
+**7. Evaluation**
+  
+The models were evaluated based on Mean Absolute Error (MAE) and RMSE to determine their forecasting accuracy.
+
+**8. Conclusion:** 
+
+- The Random Forest and XGBoost models provided the most accurate predictions for house prices, with an R² score of 0.88.
+- Time series analysis using SARIMA was effective in capturing trends and seasonality, providing reliable forecasts of future house prices.

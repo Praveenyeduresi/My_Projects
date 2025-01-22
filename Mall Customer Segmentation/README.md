@@ -52,7 +52,9 @@ Customers can be segmented based on income and spending score into potential clu
 High-income, high-spending customers (top-right cluster) – These customers have high income and high spending scores, perhaps indicating premium customers. Low-income, low-spending customers (bottom-left cluster) – These customers have low income and low spending scores, possibly indicating budget-conscious customers. High-income, low-spending customers (bottom-right cluster) – These customers have high income but do not spend much, possibly indicating conservative spenders. Low-income, high-spending customers (top-left cluster) – These customers have low income but high spending, which might indicate impulsive or dependant on credit shoppers. Middle-income, moderate-spending customers (center cluster) – These customers have average income and spending scores.
 
 **Hierarchical Clustering:**
-
+- Distance Metric: Used the 'complete' linkage method to compute clusters.
+- Dendrogram: Visualize the hierarchical relationships between data points.
+- Formed Clusters: To Choose the number of clusters from the dendrogram and assign cluster labels.
 
 **6. Evaluation**
   

@@ -1,4 +1,4 @@
-**Project Title : Heart Failure Prediction**
+## Project Title : Heart Failure Prediction
 
 **Technologies Used:** Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, scipy --- Languages: Python.
 

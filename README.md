@@ -14,6 +14,6 @@ This repository contains some of the projects I have worked on across different 
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com
-- 💼 **LinkedIn:** https://www.linkedin.com/in/praveenyeduresi/
+- 💼 **LinkedIn Profile:** https://www.linkedin.com/in/praveenyeduresi/
 
 

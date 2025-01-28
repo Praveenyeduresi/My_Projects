@@ -10,6 +10,7 @@ This repository contains some of the projects I have worked on across different 
 3. [House Sale Price Prediction](./House_sale_Price_Prediction)
 4. [Mall Customer Segmentation](./Mall%20Customer%20Segmentation)
 5. [Postpartum Depression Detection](./Postpartum-Depression-Detection)
+6. [Heart Failure Prediction](./Heart%20Failure%20Prediction)
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

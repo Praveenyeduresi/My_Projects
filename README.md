@@ -11,6 +11,7 @@ This repository contains some of the projects I have worked on across different 
 4. [Mall Customer Segmentation](./Mall%20Customer%20Segmentation)
 5. [Postpartum Depression Detection](./Postpartum-Depression-Detection)
 6. [Heart Failure Prediction](./Heart%20failure%20prediction)
+7. [Emotion Detection](./Emotion%Detection)
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

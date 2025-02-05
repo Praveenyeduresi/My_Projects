@@ -19,9 +19,7 @@ The project follows a structured pipeline as outlined below:
 
 2. Data Exploration: Understand the dataset by checking distributions, missing values, datatypes and key statistics.
 
-Data challenges
-
-3. Data Preprocessing: - 
+3. Data Preprocessing: - There are no challenges in the data.
 
 4. Exploratory Data Analysis (EDA): performed univariant and bivariant analysis.
 
@@ -37,10 +35,11 @@ Bluetooth and dual SIM support show no significant impact on price range, as the
 
 Applied various machine learning models: Logistic Regression, DecisionTree, RandomForest, XGBoost, Support Vector Machine (SVM), K-Nearest Neighbors (KNN) & Neural Networks.
 
-7. Evaluation
+6. Evaluation
 
 The models were evaluated based on classification reports such as precision, Recal, accuracy and F1-score.
 
-8. Conclusion:
+7. Conclusion:
 
+The SVM and KNN models provided the most accurate predictions for mobile price classification, with an accuracy of 0.96 and 0.94 respectively.
 

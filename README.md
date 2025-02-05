@@ -12,7 +12,7 @@ This repository contains some of the projects I have worked on across different 
 5. [Postpartum Depression Detection](./Postpartum-Depression-Detection)
 6. [Heart Failure Prediction](./Heart%20failure%20prediction)
 7. [Emotion Detection](./Emotion%20Detection)
-8. [Mobile Price Classification](./Mobile%20Price%20Prediction)
+8. [Mobile Price Classification](./Mobile%20Price%20Classification)
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

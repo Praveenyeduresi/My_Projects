@@ -13,6 +13,7 @@ This repository contains some of the projects I have worked on across different 
 6. [Heart Failure Prediction](./Heart%20failure%20prediction)
 7. [Emotion Detection](./Emotion%20Detection)
 8. [Mobile Price Classification](./Mobile%20Price%20Classification)
+9. [Daily Female Births](./Daily%20Female%20Births)
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

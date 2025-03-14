@@ -6,12 +6,12 @@ Technologies Used: Libraries: Pandas, Matplotlib, Seaborn, sklearn, statsmodels,
 
 **Table of contents**
 
-Dataset Loading
-Data Exploration
-Data Preprocessing
-Exploratory Data Analysis (EDA)
-Modelling
-Evaluation Metrics
+Data Loading,
+Data Exploration,
+Data Preprocessing,
+Exploratory Data Analysis (EDA),
+Modelling,
+Evaluation Metrics.
 
 The project follows a structured pipeline as outlined below:
 

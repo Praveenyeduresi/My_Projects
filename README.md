@@ -14,6 +14,7 @@ This repository contains some of the projects I have worked on across different 
 7. [Emotion Detection](./Emotion%20Detection)
 8. [Mobile Price Classification](./Mobile%20Price%20Classification)
 9. [Daily Female Births](./Daily%20Female%20Births)
+10. [ShopSense E-Commerce Revenue Index](./ShopSense%E-Commerce%Revenue%Index).
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

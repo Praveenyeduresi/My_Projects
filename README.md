@@ -15,6 +15,7 @@ This repository contains some of the projects I have worked on across different 
 8. [Mobile Price Classification](./Mobile%20Price%20Classification)
 9. [Daily Female Births](./Daily%20Female%20Births)
 10. [ShopSense E-Commerce Revenue Index](./ShopSense%20E-Commerce%20Revenue%20Index).
+11. [Bike Rentals Prediction](./Bike%20Rentals%20Prediction).
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

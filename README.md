@@ -16,6 +16,7 @@ This repository contains some of the projects I have worked on across different 
 9. [Daily Female Births](./Daily%20Female%20Births)
 10. [ShopSense E-Commerce Revenue Index](./ShopSense%20E-Commerce%20Revenue%20Index).
 11. [Bike Rentals Prediction](./Bike%20Rentals%20Prediction).
+12. [Book Recommender System](/Book%20Recommender%20System)
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com

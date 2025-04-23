@@ -37,8 +37,6 @@
 
 - Integrated prompt engineering to optimize Gemini’s use of retrieved context.
 
-**Manual Testing**
-
 **Conclusion**: 
 This RAG system effectively bridges the gap between unstructured documents and intelligent querying. By combining semantic retrieval with Google’s Gemini model, it enables users to extract meaningful insights from large document collections. The modular design supports future scalability, multi-document input, and domain-specific applications like legal, research, or medical document Q&A.
 

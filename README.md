@@ -9,10 +9,10 @@ This repository contains some of the projects I have worked on across different 
 2. [Fake News Detection](./Fake_or_True_News)
 3. [House Sale Price Prediction](./House_sale_Price_Prediction)
 4. [Mall Customer Segmentation](./Mall%20Customer%20Segmentation)
-5. [Postpartum Depression Detection](./Postpartum-Depression-Detection)
-6. [Heart Failure Prediction](./Heart%20failure%20prediction)
+5. [Postpartum Depression Detection](./Classification_Projects/Postpartum-Depression-Detection)
+6. [Heart Failure Prediction](./Classification_Projects/Heart%20failure%20prediction)
 7. [Emotion Detection](./Emotion%20Detection)
-8. [Mobile Price Classification](./Mobile%20Price%20Classification)
+8. [Mobile Price Classification](./Classification_Projects/Mobile%20Price%20Classification)
 9. [Daily Female Births](./Daily%20Female%20Births)
 10. [ShopSense E-Commerce Revenue Index](./ShopSense%20E-Commerce%20Revenue%20Index).
 11. [Bike Rentals Prediction](./Bike%20Rentals%20Prediction).

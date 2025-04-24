@@ -5,7 +5,7 @@ Hi, 👋 I am **Praveen Yeduresi**. I recently completed a master’s degree in 
 I bring **3+ years of experience** in leveraging **machine learning** and **deep learning** techniques, including **time series analysis** and **natural language processing**, to solve complex business problems and deliver measurable value to clients.
 
 This repository contains some of the projects I have worked on across different domains.
-1. [Banking Customer Churn Prediction](./Banking_CustomerChurn_Prediction)
+1. [Banking Customer Churn Prediction](./Classification_Projects/Banking_Churn_prediction)
 2. [Fake News Detection](./Fake_or_True_News)
 3. [House Sale Price Prediction](./House_sale_Price_Prediction)
 4. [Mall Customer Segmentation](./Mall%20Customer%20Segmentation)

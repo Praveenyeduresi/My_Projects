@@ -17,7 +17,7 @@ This repository contains some of the projects I have worked on across different 
 10. [ShopSense E-Commerce Revenue Index](./ShopSense%20E-Commerce%20Revenue%20Index).
 11. [Bike Rentals Prediction](./Bike%20Rentals%20Prediction).
 12. [Book Recommender System](/Book%20Recommender%20System)
-13. [Q&A System with RAG](https://github.com/Praveenyeduresi/My_Projects/tree/main/Q%26A%20System%20with%20RAG)
+13. [Q&A System with RAG](/Q%26A%20System%20with%20RAG)
 
 ## My Contact details
 - 📧 **Email:** praveenyeduresi@gmail.com
